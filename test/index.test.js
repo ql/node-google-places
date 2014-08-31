@@ -17,7 +17,7 @@ fakeweb.registerUri({
 });
 //fake the details
 fakeweb.registerUri({
-  uri: 'https://maps.googleapis.com/maps/api/place/details/json?place_id=ABC123&sensor=false&language=en&key=fake_key',
+  uri: 'https://maps.googleapis.com/maps/api/place/details/json?placeid=ABC123&sensor=false&language=en&key=fake_key',
   body: '{"result" : {"rating": 2.5}, "status" : "OK"}'
 });
 
